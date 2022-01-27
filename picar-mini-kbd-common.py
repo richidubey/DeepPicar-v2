@@ -9,8 +9,8 @@ import sys
 import params
 import argparse
 
-import Image
-import ImageDraw
+from PIL import Image
+from PIL import ImageDraw
 import local_common as cm
 
 import input_kbd
