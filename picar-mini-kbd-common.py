@@ -79,7 +79,7 @@ if args.dnn:
 if args.throttle:
     cfg_throttle = args.throttle
     print ("throttle = %d pct" % (args.throttle))
-if args.ncpu > 0:
+if args.ncpu:
     NCPU = args.ncpu
 if args.fpvvideo:
     fpv_video = True
